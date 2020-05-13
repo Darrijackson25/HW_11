@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Audio Visual Slider | Custom Audio Player</title>
+    <script src="scripts/js/main.js"></script>
+     <script src="scripts/js/audio.js"></script>
+     <link rel="stylesheet" type="text/css" href="main.css">
+    
+     <link rel="stylesheet" type="text/css" href="audio.css">
+</head>
+<body>
+    <div class="audio-buttons">
+        <button aria-checked="false" class="play-pause" data-playing="false" role="switch">Play</button>
+        <input id="volume" max="2" min="0" step="0.01" type="range" value="1">
+    
+    <div id="image-wrapper">
+    <div class="slide slide1" style="display none;">
+    <img src="960x0.jpg" alt>
+        <img class="slide-alt" src="1562686823_73401_o.jpg" alt>
+    </div>
+    
+    <div class="slide slide2" style="display: none">
+    <img src="1562686823_73401_o.jpg" alt>
+        <img class="slide-alt" src="istockphoto-1145474071-612x612.jpg" alt>
+    </div>
+        </div>
+        
+        </div>
+    <audio src="audio/Bumblebee.mp3" type=" audio/mpeg"></audio>
+</body>
+</html>
